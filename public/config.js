@@ -6,7 +6,8 @@ window.Config = {
   // UptimeRobot Api Keys
   // 支持 Monitor-Specific 和 Read-Only
   ApiKeys: [
-    'ur2208405-95315c185b2af166e9de925f',
+    'm797585291-ffc0414b0daa97baba125412',
+    'm797585293-1293925d265a9c1c3a57ab92',
   ],
 
   // 日志天数
@@ -18,16 +19,12 @@ window.Config = {
   // 导航栏菜单
   Navi: [
     {
-      text: 'Homepage',
-      url: 'https://status.org.cn/'
+      text: 'Blog',
+      url: 'https://wenlei.top/'
     },
     {
       text: 'GitHub',
-      url: 'https://github.com/yb/uptime-status'
-    },
-    {
-      text: 'Blog',
-      url: 'https://abo.xyz/'
+      url: 'https://github.com/Andy17269'
     },
   ],
 };
