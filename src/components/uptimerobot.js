@@ -37,7 +37,7 @@ function UptimeRobot({ apikey }) {
           }
           else if (data.uptime <= 0 && data.down.times === 0) {
             status = 'none';
-            text += '获取数据失败,未知可用性';
+            text += '服务在此时未上线';
           }
           else {
             status = 'down';
