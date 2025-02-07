@@ -13,7 +13,7 @@ function Header() {
         <h1 className='logo'>{window.Config.SiteName}</h1>
         <div className='navi'>
           {window.Config.Navi.map((item, index) => (
-            <Link key={index} to={item.url} text={item.text} />
+            <strong> <Link key={index} to={item.url} text={item.text} /> </strong>
           ))}
         </div>
       </div>
