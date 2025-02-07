@@ -8,8 +8,8 @@ function UptimeRobot({ apikey }) {
 
   const status = {
     ok: '正常',
-    down: '无法访问',
-    unknow: '未知'
+    down: '故障',
+    unknow: '未知可用性'
   };
 
   const { CountDays, ShowLink } = window.Config;
@@ -37,7 +37,7 @@ function UptimeRobot({ apikey }) {
           }
           else if (data.uptime <= 0 && data.down.times === 0) {
             status = 'none';
-            text += '无数据';
+            text += '获取数据失败';
           }
           else {
             status = 'down';
