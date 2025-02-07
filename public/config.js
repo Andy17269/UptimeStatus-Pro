@@ -18,7 +18,7 @@ window.Config = {
   // 导航栏菜单
   Navi: [
     {
-      text: 'Blog',
+      text: '<strong>Blog</strong>',
       url: 'https://wenlei.top/'
     },
     {
