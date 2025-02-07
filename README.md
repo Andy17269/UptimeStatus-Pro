@@ -12,7 +12,14 @@
 ## 部署
 ### Vercel（推荐）
 
-在右上角Fork此存储库
+- 在右上角Fork此存储库，然后在 Vercel 部署。完成后，你需要在Fork的存储库中编辑配置文件。
+- 修改 `config.js` 文件：
+   - `SiteName`: 要显示的网站名称
+   - `ApiKeys`: 从 UptimeRobot 获取的 API Key，支持 Monitor-Specific API Keys 和 Read-Only API Key
+   - `CountDays`: 要显示的日志天数，建议 60 或 90，显示效果比较好
+   - `ShowLink`: 是否显示站点链接
+   - `Navi`: 导航栏的菜单列表
+- 大功告成！你可以在项目>设置>域名中绑定自己的域名，获得更好的访问速度。
 
 ### COS或静态空间
 - 下载并解压最新版本：[uptime-status.zip](https://github.com/Andy17269/uptime-status/releases/latest/download/uptime-status.zip "uptime-status.zip") 
