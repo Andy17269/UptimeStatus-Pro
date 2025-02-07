@@ -23,7 +23,7 @@ function App() {
           ))}
         </div>
         <div id='footer'>
-          <p>&copy; 2025 <Link to='https://wenlei.top/' text='wenlei.top'/></p>
+          <p>&copy; 2025 <Link to='https://wenlei.top/' text='wenlei.top' /></p>
         </div>
       </div>
     </>
